@@ -5,7 +5,7 @@ AC_PREREQ([2.68])
 AC_CONFIG_SRCDIR(main.cpp)
 AC_CONFIG_AUX_DIR(cfg)
 AM_INIT_AUTOMAKE([foreign no-dist-gzip dist-bzip2 1.9])
-AM_CONFIG_HEADER(cfg/config.h)
+AC_CONFIG_HEADERS(cfg/config.h)
 
 SUBDIRS=""
 
